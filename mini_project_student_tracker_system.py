@@ -5,8 +5,6 @@ student_info = {}
 def calculate_grade(avg):
     if avg >= 90 and avg <101:
         return "A"
-    elif avg >= 80:
-        return "B"
     elif avg >= 70:
         return "C"
     elif avg >= 60:
